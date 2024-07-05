@@ -1,4 +1,4 @@
-## Guardian LMS
+## Learning Management System
 
 #### Setup Guide
 - Clone this repository
