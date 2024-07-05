@@ -26,5 +26,4 @@
 ##### Addon
 - see changelog.md for list of packages and default user credentials
 
-#### API Documentation
-[Documentation](https://documenter.getpostman.com/view/18698133/2s9Y5bQ1QB)
+
