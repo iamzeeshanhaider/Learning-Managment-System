@@ -1,0 +1,105 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "The Laravel Framework.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0.26",
+        "ext-curl": "^8.0",
+        "anhskohbo/no-captcha": "^3.4",
+        "asantibanez/livewire-calendar": "dev-master",
+        "barryvdh/laravel-dompdf": "^2.0",
+        "bensampo/laravel-enum": "^6.3",
+        "beyondcode/laravel-websockets": "^1.13",
+        "creativeorange/gravatar": "~1.0",
+        "doctrine/dbal": "^3.6",
+        "google/apiclient": "^2.15.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "jambasangsang/flash": "^1.0",
+        "jenssegers/agent": "^2.6",
+        "laravel/framework": "^9.11",
+        "laravel/helpers": "^1.5",
+        "laravel/passport": "^10.4",
+        "laravel/sanctum": "^2.14.1",
+        "laravel/tinker": "^2.7",
+        "laravel/ui": "^4.2",
+        "laravelcollective/html": "^6.3",
+        "league/flysystem-aws-s3-v3": "^3.15",
+        "livewire/livewire": "^2.10",
+        "predis/predis": "^2.2",
+        "pusher/pusher-php-server": "^7.2",
+        "rappasoft/laravel-livewire-tables": "^2.12",
+        "react/dns": "^1.9",
+        "spatie/laravel-google-calendar": "^3.6",
+        "spatie/laravel-permission": "^5.5",
+        "srmklive/paypal": "~3.0",
+        "symfony/http-client": "^5.4",
+        "symfony/mailgun-mailer": "^5.4",
+        "tymon/jwt-auth": "^2.0",
+        "unisharp/laravel-filemanager": "^2.5",
+        "van-ons/laraberg": "^2.0"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9.1",
+        "laravel/sail": "^1.0.1",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^6.1",
+        "phpunit/phpunit": "^9.5.10",
+        "spatie/laravel-ignition": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "app/jambasangsang/helper.php",
+            "app/jambasangsang/constant.php"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/",
+            "Asantibanez\\LivewireCalendar\\": "vendor/asantibanez/livewire-calendar/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "platform-check": false
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Butochnikov/livewire-calendar"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

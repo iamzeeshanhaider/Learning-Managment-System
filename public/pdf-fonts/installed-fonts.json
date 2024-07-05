@@ -1,0 +1,29 @@
+{
+    "font awesome 6 brands": {
+        "normal": "font_awesome_6_brands_normal_bc8518f7c6662215315a70391938c4d3"
+    },
+    "font awesome 6 free": {
+        "normal": "\/Users\/jeremiahiromaka\/code\/guardian\/lms\/public\/pdf-fonts\/font_awesome_6_free_normal_d9435ad7ce4df537429f0606dde66581",
+        "900": "font_awesome_6_free_900_9810b9aabbb757fed6ada4f8b7ae680d"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_bc8518f7c6662215315a70391938c4d3"
+    },
+    "font awesome 5 free": {
+        "900": "\/Users\/jeremiahiromaka\/code\/guardian\/lms\/public\/pdf-fonts\/font_awesome_5_free_900_9810b9aabbb757fed6ada4f8b7ae680d",
+        "normal": "font_awesome_5_free_normal_d9435ad7ce4df537429f0606dde66581"
+    },
+    "fontawesome": {
+        "normal": "fontawesome_normal_4a6224ef3e16dc3138e6ecfcd841f33c"
+    },
+    "montserrat": {
+        "normal": "\/Users\/jeremiahiromaka\/code\/guardian\/lms\/public\/pdf-fonts\/montserrat_normal_2a6d8f0d2714947f46a904959e54c5f4",
+        "bold": "montserrat_bold_df799257dc215f6b86085917f9179aa2"
+    },
+    "raleway": {
+        "bold": "raleway_bold_9d444e31eebd96639fc2145844d1c3fd"
+    },
+    "mr de haviland": {
+        "normal": "mr_de_haviland_normal_51b85461511a447b77c39d5d79e9e344"
+    }
+}
